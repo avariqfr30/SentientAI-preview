@@ -7,7 +7,7 @@ import random # For simulating diverse input sources
 
 # --- Configuration ---
 OLLAMA_LLM_MODEL = "gemma3:4b-it-qat" # Main LLM for reasoning and action (pre-trained, unavoidable)
-OLLAMA_EMBEDDING_MODEL = "nomic-embed-text:latest" # Embedding model for vector DB (pre-trained, unavoidable)
+OLLAMA_EMBEDDING_MODEL = "nomic-embed-text:" # Embedding model for vector DB (pre-trained, unavoidable)
 CHROMA_DB_PATH = "./chroma_db_trend_learner" # Unique path for this version's memory
 
 # Initialize Ollama clients
