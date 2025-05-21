@@ -1,0 +1,4 @@
+ollama
+chromadb
+numpy # Often a dependency of other scientific/data libraries, good to be explicit
+json5 # For more fault-tolerant JSON parsing, though json is built-in
